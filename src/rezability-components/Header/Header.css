@@ -1,22 +1,24 @@
 .header {
-    position: absolute;
     width: 1440px;
     height: 80px;
     left: 0px;
     top: 0px;
 
-background: #FFFFFF;
+    background: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header-contetn {
-    position: absolute;
     width: 1206px;
     height: 43px;
     left: 117px;
     top: 19px;
 }
 
-.logo {
+.header-logo {
     position: absolute;
     width: 26px;
     height: 26px;
@@ -24,6 +26,7 @@ background: #FFFFFF;
     top: 27px;
 
     background: #5E81FE;
+    border-radius: 50%;
 }
 
 .menu {
@@ -32,11 +35,10 @@ background: #FFFFFF;
     height: 15px;
     left: 216px;
     top: 33px;
-
+    display: flex;
 }
 
 .menu-link {
-
 
 font-family: 'Quicksand';
 font-style: normal;
@@ -44,7 +46,7 @@ font-weight: 700;
 font-size: 12px;
 line-height: 15px;
 
-display: flex;
+margin-left: 20px;
 align-items: center;
 text-align: center;
 letter-spacing: 0.05em;
@@ -61,9 +63,37 @@ text-shadow: 0px 0px 5px #E6E6E6;
     height: 17px;
     left: 1004px;
     top: 32px;
+    display: flex;
 }
 
-button {
+.social-facebook {
+    width: 8.71px;
+    height: 17px;
+    left: 1004px;
+    top: 32px;
+}
+
+.social-telegram {
+    width: 14.7px;
+    height: 11.79px;
+    left: 1050.29px;
+    top: 34.95px;
+}
+
+.social-twitter {
+    width: 16.51px;
+    height: 13.78px;
+    left: 1099.52px;
+    top: 34.21px;
+}
+.social-medium {
+    width: 16.51px;
+    height: 12.86px;
+    left: 1149.49px;
+    top: 34.21px;
+}
+
+.start-btn {
     position: absolute;
     width: 113px;
     height: 43px;
