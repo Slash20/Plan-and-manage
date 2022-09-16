@@ -19,13 +19,13 @@ const Header = function ()  {
           <a href="/" className="menu-link">Documentation</a>
         </div>
         <div className="social">
-          <a href="/" className="social-facebook">
+          <a href="/" className="social-facebok">
             <img src= {facebook} alt="facebook"/>
           </a>
           <a href="/" className="social-telegram">
             <img src= {telegram} alt="telegram"/>
           </a>
-          <a href="/" className="social-twitter">
+          <a href="/" className="social-twiter">
             <img src= {twitter} alt="twitter"/>
           </a>
           <a href="/" className="social-medium">
