@@ -8,7 +8,8 @@ import medium from './img/m-logo.png';
 const Header = function ()  {
   return (    
   <div className="header">
-    <div className="header-contetn">
+    <div className="header-content">
+      <div className='header-left'>
         <div className="header-logo">
         </div>
         <div className="menu">
@@ -18,6 +19,8 @@ const Header = function ()  {
           <a href="/" className="menu-link">Pricing</a>
           <a href="/" className="menu-link">Documentation</a>
         </div>
+      </div>
+      <div className='header-right'>
         <div className="social">
           <a href="/" className="social-facebok">
             <img src= {facebook} alt="facebook"/>
@@ -35,6 +38,7 @@ const Header = function ()  {
         <div className="start">
           <button className="start-btn">Get started</button>
         </div>
+      </div>
     </div>
   </div>
   )
