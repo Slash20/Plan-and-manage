@@ -1,0 +1,137 @@
+.header {
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-content {
+    width: 100%;
+    height: 43px;
+    left: 117px;
+    top: 19px;
+
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-left{
+    width: 526px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center 
+}
+
+.header-right{
+    width: 319px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center 
+}
+
+.header-logo {
+    width: 26px;
+    height: 26px;
+    left: 117px;
+    top: 27px;
+
+    background: #5E81FE;
+    border-radius: 50%;
+}
+
+.menu {
+    width: 427px;
+    height: 15px;
+    left: 216px;
+    top: 33px;
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+.menu-link {
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #5E81FE;
+text-shadow: 0px 0px 5px #E6E6E6;
+}
+
+.social {
+    width: 162px;
+    height: 17px;
+    left: 1004px;
+    top: 32px;
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.social-facebok {
+    width: 8.71px;
+    height: 1px;
+    left: 1004px;
+    top: 35px;
+}
+
+.social-telegram {
+    width: 14.7px;
+    height: 11.79px;
+    left: 1050.29px;
+    top: 34.95px;
+}
+
+.social-twiter {
+    width: 16.51px;
+    height: 13.78px;
+    left: 1099.52px;
+    top: 34.21px;
+}
+
+.social-medium {
+    width: 16.51px;
+    height: 12.86px;
+    left: 1149.49px;
+    top: 34.21px;
+}
+
+.start-btn {
+    width: 113px;
+    height: 43px;
+    left: 1210px;
+    top: 19px;
+
+    background: #D2E1FF;
+    border: #d2e1ff 2px solid;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+
+    align-items: center;
+    text-align: center;
+    color: #3A79FF;
+}
