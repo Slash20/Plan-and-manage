@@ -1,0 +1,43 @@
+.footer {
+    width: 100%;
+    height: 287px;
+    left: 0px;
+    top: 5894px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+    background: #FFFFFF;
+}
+
+.footer-content {
+    width: 100%;
+    height: 101px;
+    left: 117px;
+    top: 5987px;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copyright {
+    width: 50%;
+    height: 30px;
+    left: 216px;
+    top: 6058px;
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+
+    justify-content: space-around;
+
+    color: #AEB8D0;
+}
