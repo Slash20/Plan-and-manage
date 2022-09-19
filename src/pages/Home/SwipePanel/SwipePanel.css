@@ -1,0 +1,24 @@
+.Slide {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.Slide-container {
+  width: 100%;
+  position: relative;
+  margin-bottom: -4px;
+}
+
+.Slide-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 194px;
+  top: 92px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
