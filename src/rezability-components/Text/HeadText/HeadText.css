@@ -6,3 +6,12 @@
   color: #3d4f9f;
   margin: 0;
 }
+
+.HeadTextMedium {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 60px;
+  color: #3d4f9f;
+  margin: 0;
+}
