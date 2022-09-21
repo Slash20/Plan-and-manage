@@ -10,14 +10,17 @@
 }
 
 .content {
-    justify-content: space-around;
+    width: 887px;
+height: 95px;
+left: 276px;
+top: 5680px;
+    justify-content: space-between;
     align-items: center;
     display: flex;
 }
 
 .left-content {
-    
-    
+    margin-right: 9%;
 }
 
 .sign-up {
@@ -48,7 +51,7 @@
     line-height: 27px;
     letter-spacing: 0.03em;
     
-    margin-top: 25px;
+    margin-top: 15px;
     color: #8D96BD;
 }
 
@@ -73,7 +76,7 @@
     border: #d2e1ff 0px solid;
     border-radius: 5px;
 
-
+    margin-right: 12px;
 }
 
 .email::placeholder {
