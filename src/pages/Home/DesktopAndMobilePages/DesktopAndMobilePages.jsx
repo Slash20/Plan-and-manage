@@ -6,7 +6,10 @@ import Bold from '../../../rezability-components/Text/Bold/Bold.jsx'
 import ContentText from '../../../rezability-components/Text/ContentText/ContentText.jsx'
 import DoubleButtons from '../../../rezability-components/Buttons/DoubleButtons/DoubleButtons.jsx'
 import Icon from '../../../img/svg/Polygon.svg'
-import Rectangle from '../../../img/svg/Rectangle 2.svg'
+import ReminderE from '../../../img/svg/Reminder events.svg'
+import ReminderS from '../../../img/svg/Reminder search.svg'
+import Laptop from '../../../img/svg/15.svg'
+import Bot from '../../../img/svg/Rectangle bot.svg'
 
 function DesktopAndMobilePages() {
   return (
@@ -28,7 +31,12 @@ function DesktopAndMobilePages() {
             <DoubleButtons firstButton={{text: <>View video <img src={Icon} alt="Icon" /></>, type: 'primal'}} secondButton={{text: 'See features', type: 'clear'}}/>
         </div>
         <div className='ImageDesktopAndMobile'>
-              <img src={Rectangle} alt="Rectangle"/>
+            <div className='pos'>
+              <img className='laptop' src={Laptop} alt="Laptop"/>
+              <img className='bot' src={Bot} alt="."/>
+            </div>
+            <img className='reminderE' src={ReminderE} alt="Reminder events"/>
+            <img className='reminderS' src={ReminderS} alt="Reminder search"/>
         </div>
     </div>
   )
