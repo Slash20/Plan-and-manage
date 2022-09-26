@@ -6,7 +6,6 @@ import Newsletter from './Newsletter/Newsletter';
 import './Home.css';
 import SwipePanel from './SwipePanel/SwipePanel';
 
-
 const Home = () => {
   return (
     <div className="Home">
