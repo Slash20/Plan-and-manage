@@ -1,7 +1,7 @@
 import React from 'react';
 import Line from '../../rezability-components/Line/Line';
 import Customers from './Customers/Customers';
-import DesktopAndMobilePages from './Newsletter/Newsletter';
+import Newsletter from './Newsletter/Newsletter';
 import './Home.css';
 import SwipePanel from './SwipePanel/SwipePanel';
 
@@ -12,7 +12,7 @@ const Home = () => {
       <Line />
       <Customers />
       <Line />
-      <DesktopAndMobilePages />
+      <Newsletter />
       <Line />
     </div>
   );
