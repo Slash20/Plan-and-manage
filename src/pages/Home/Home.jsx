@@ -4,7 +4,6 @@ import Customers from './Customers/Customers';
 import Newsletter from './Newsletter/Newsletter';
 import './Home.css';
 import SwipePanel from './SwipePanel/SwipePanel';
-import Newsletter from './Newslatter/Newsletter';
 
 
 const Home = () => {
