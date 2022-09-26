@@ -1,45 +1,25 @@
-import React from 'react'
-import './Newsletter.css'
-import MiniHeadText from '../../../rezability-components/Text/MiniHeadText/MiniHeadText.jsx'
-import HeadText from '../../../rezability-components/Text/HeadText/HeadText'
-import Bold from '../../../rezability-components/Text/Bold/Bold.jsx'
-import ContentText from '../../../rezability-components/Text/ContentText/ContentText.jsx'
-import DoubleButtons from '../../../rezability-components/Buttons/DoubleButtons/DoubleButtons.jsx'
-import Icon from '../../../img/svg/Polygon.svg'
-import ReminderE from '../../../img/svg/Reminder events.svg'
-import ReminderS from '../../../img/svg/Reminder search.svg'
-import Laptop from '../../../img/svg/15.svg'
-import Bot from '../../../img/svg/Rectangle bot.svg'
+import React from 'react';
+import './Newsletter.css';
 
-function DesktopAndMobilePages() {
-  return (
-    <div className='DesktopAndMobilePages'>
-        <div className='TextAndButtons'>
-            <MiniHeadText text='DESKTOP AND MOBILE APP' />
-            <HeadText medium={true} text={<><Bold text='Plan'/> and <Bold text='manage'/></>}/>
-            <ContentText text={<>
-                Brute laoreet efficiendi id his, ea illum nonumes luptatum
-                <br />
-                pro. Usu atqui laudem an, insolens gubergren similique
-                <br />
-                est cu. Et vel modus congue vituperata. Solum patrioque
-                <br />
-                no sea. Mea ex malis mollis oporteat. Eum an expetenda
-                <br />
-                consequat.
-            </>}/>
-            <DoubleButtons firstButton={{text: <>View video <img src={Icon} alt="Icon" /></>, type: 'primal'}} secondButton={{text: 'See features', type: 'clear'}}/>
-        </div>
-        <div className='ImageDesktopAndMobile'>
-            <div className='pos'>
-              <img className='laptop' src={Laptop} alt="Laptop"/>
-              <img className='bot' src={Bot} alt="."/>
+const Newsletter = function () {
+    return (
+      <div className='newsletter'>
+        <div className='content'>
+            <div className='left-content'>
+                <div className='sign-up'>
+                    Sign up for newsletter
+                </div>
+                <div className='description'>
+                    Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu, homero alterum.
+                </div>
             </div>
-            <img className='reminderE' src={ReminderE} alt="Reminder events"/>
-            <img className='reminderS' src={ReminderS} alt="Reminder search"/>
+            <div className='right-content'>
+                <input className='email' type='email' placeholder="Email address"/>
+                <button className='save-me'>Save me</button>
+            </div>
         </div>
-    </div>
-  )
-}
+      </div>
+    );
+  };
 
-export default DesktopAndMobilePages
+export default Newsletter;
