@@ -1,5 +1,5 @@
 import React from 'react'
-import './DesktopAndMobilePages.css'
+import './Newsletter.css'
 import MiniHeadText from '../../../rezability-components/Text/MiniHeadText/MiniHeadText.jsx'
 import HeadText from '../../../rezability-components/Text/HeadText/HeadText'
 import Bold from '../../../rezability-components/Text/Bold/Bold.jsx'
