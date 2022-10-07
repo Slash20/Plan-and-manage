@@ -6,6 +6,7 @@ import Newsletter from './Newsletter/Newsletter';
 import './Home.css';
 import SwipePanel from './SwipePanel/SwipePanel';
 import Features from './Features/Features';
+import Stats from './Stats/Stats';
 
 
 const Home = () => {
@@ -18,6 +19,8 @@ const Home = () => {
       <DesktopAndMobilePages />
       <Line />
       <Features />
+      <Line />
+      <Stats />
       <Line />
       <Newsletter />
       <Line />

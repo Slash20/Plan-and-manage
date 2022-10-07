@@ -1,0 +1,76 @@
+.stats{
+    width: 100%;
+    height: 343px;
+    display: flex;
+    
+}
+.stats-left{
+    width: 50%;
+    background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+}
+.stats-right{
+    width: 50%;
+    background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
+}
+.stats-right-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 90px;
+    margin-top: 70px;
+}
+.stats-left-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-right: 90px;
+    margin-top: 66px;
+}
+.percents{
+    height: 84px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 83px;
+    text-align: right;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.custumers{
+    width: 260px;
+    height: 45px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.count{
+    width: 99px;
+    height: 84px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    color: #5E80FF;
+}
+.users{
+    width: 260px;
+    height: 45px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    color: #5E80FF;
+}
