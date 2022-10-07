@@ -7,6 +7,7 @@ import './Home.css';
 import SwipePanel from './SwipePanel/SwipePanel';
 import Features from './Features/Features';
 import Stats from './Stats/Stats';
+import GetStarted from './GetStarted/GetStarted'
 
 
 const Home = () => {
@@ -21,6 +22,8 @@ const Home = () => {
       <Features />
       <Line />
       <Stats />
+      <Line />
+      <GetStarted />
       <Line />
       <Newsletter />
       <Line />
