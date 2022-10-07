@@ -5,6 +5,7 @@ import DesktopAndMobilePages from './DesktopAndMobilePages/DesktopAndMobilePages
 import Newsletter from './Newsletter/Newsletter';
 import './Home.css';
 import SwipePanel from './SwipePanel/SwipePanel';
+import Features from './Features/Features';
 
 
 const Home = () => {
@@ -15,6 +16,8 @@ const Home = () => {
       <Customers />
       <Line />
       <DesktopAndMobilePages />
+      <Line />
+      <Features />
       <Line />
       <Newsletter />
       <Line />
