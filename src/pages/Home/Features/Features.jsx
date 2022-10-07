@@ -10,7 +10,7 @@ const Features = () => {
   return (
     <div className='features'>
         <div className='read-about'>
-            <div className='content'>
+            <div className='content-features'>
                 <div className='title'>
                   <div className='about'>ABOUT US</div>
                   <div className='about-2'>Read about our app</div>
