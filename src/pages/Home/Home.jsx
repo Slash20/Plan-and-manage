@@ -9,6 +9,7 @@ import Features from './Features/Features';
 import Stats from './Stats/Stats';
 import GetStarted from './GetStarted/GetStarted'
 import CustomerHelp from './CustomerHelp/CustomerHelp'
+import Quotes from './Quotes/Quotes'
 
 
 const Home = () => {
@@ -23,6 +24,8 @@ const Home = () => {
       <Features />
       <Line />
       <Stats />
+      <Line />
+      <Quotes />
       <Line />
       <CustomerHelp />
       <Line />
