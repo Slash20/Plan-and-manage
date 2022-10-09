@@ -10,6 +10,7 @@ import Stats from './Stats/Stats';
 import GetStarted from './GetStarted/GetStarted'
 import CustomerHelp from './CustomerHelp/CustomerHelp'
 import Quotes from './Quotes/Quotes'
+import Blog from './Blog/Blog'
 
 
 const Home = () => {
@@ -24,6 +25,8 @@ const Home = () => {
       <Features />
       <Line />
       <Stats />
+      <Line />
+      <Blog />
       <Line />
       <Quotes />
       <Line />
