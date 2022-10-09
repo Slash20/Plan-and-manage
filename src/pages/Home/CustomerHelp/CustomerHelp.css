@@ -53,17 +53,19 @@ details summary{
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
-
+    white-space: nowrap;
     color: #8E96B7;
 }
 details summary::before{
     margin: 24px;
     content: '\276F';
     rotate: 90deg;
+    transform: scale(150%);
 }
 details[open] summary::before{
     rotate: -90deg;
     content: '\276F';
+    
 }
 details[open] summary{
     width: 463px;
@@ -89,6 +91,7 @@ details {
     line-height: 27px;
     letter-spacing: 0.03em;
     color: #8D96BD;
+    margin-top: 15px;
 }
 details[open]{
     height: 200px;
