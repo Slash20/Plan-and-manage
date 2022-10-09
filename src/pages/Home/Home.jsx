@@ -8,6 +8,7 @@ import SwipePanel from './SwipePanel/SwipePanel';
 import Features from './Features/Features';
 import Stats from './Stats/Stats';
 import GetStarted from './GetStarted/GetStarted'
+import CustomerHelp from './CustomerHelp/CustomerHelp'
 
 
 const Home = () => {
@@ -22,6 +23,8 @@ const Home = () => {
       <Features />
       <Line />
       <Stats />
+      <Line />
+      <CustomerHelp />
       <Line />
       <GetStarted />
       <Line />

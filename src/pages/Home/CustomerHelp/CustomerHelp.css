@@ -1,0 +1,120 @@
+.customerHelp{
+    width: 100%;
+    height: 964px;
+    background: #FFFFFF;
+    display: grid;
+    place-items: center;
+}
+.customerHelp-content{
+    width: 743px;
+    height: 614px;
+    display: flex;
+    flex-direction: column;
+}
+.customerHelp-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 68px;
+}
+.title-customerHelp{
+    margin-bottom: 20px;
+    width: 93px;
+    height: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3D4F9F;
+}
+.crequentlyAsked{
+    width: 311px;
+    height: 30px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #3D4F9F;
+}
+details summary{
+    width: 497px;
+    height: 45px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: #8E96B7;
+}
+details summary::before{
+    margin: 24px;
+    content: '\276F';
+    rotate: 90deg;
+}
+details[open] summary::before{
+    rotate: -90deg;
+    content: '\276F';
+}
+details[open] summary{
+    width: 463px;
+    height: 45px;
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    
+    color: #495274;
+}
+details {
+    height: 62px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    color: #8D96BD;
+}
+details[open]{
+    height: 200px;
+}
+.card-body{
+    margin-left: 56px;
+    display: flex;
+    justify-content: space-around;
+}
+.card-body-text{
+    width: 391px;
+    height: 62px;
+}
+.customerHelp-btn{
+    width: 195px;
+    height: 43px;
+    background: #E8ECF4;
+    border: 2px solid #FFFFFF;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7382A3;
+}
