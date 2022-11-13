@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Plan-and-manage/static/css/main.cc201032.css",
+    "main.js": "/Plan-and-manage/static/js/main.4a964747.js",
+    "static/media/15.svg": "/Plan-and-manage/static/media/15.defcecaffc0a12d2d6b466ce35bf17e7.svg",
+    "static/media/Blog img1.svg": "/Plan-and-manage/static/media/Blog img1.14d08a861a2ee6debe0a43814a436029.svg",
+    "static/media/notMe.svg": "/Plan-and-manage/static/media/notMe.28070c75fd5fd451be4fb322b546284a.svg",
+    "static/media/Blog img2.svg": "/Plan-and-manage/static/media/Blog img2.ef0971e0da65b48a941da78ab1642cba.svg",
+    "static/media/Blog img3.svg": "/Plan-and-manage/static/media/Blog img3.5955ee263400e63ad30c7e90697725e1.svg",
+    "static/media/Reminder search.svg": "/Plan-and-manage/static/media/Reminder search.4e291e1a819781f08bc61216592762b1.svg",
+    "static/media/Reminder events.svg": "/Plan-and-manage/static/media/Reminder events.a8867296c79384f04252206e2e106221.svg",
+    "static/media/slide.svg": "/Plan-and-manage/static/media/slide.629568daef12ff52ef67e9efbadcb6b1.svg",
+    "static/media/Bitbucket.svg": "/Plan-and-manage/static/media/Bitbucket.7d827991b9ef88f6c7a5d9d5ff4d872f.svg",
+    "static/media/Atlassian.svg": "/Plan-and-manage/static/media/Atlassian.49bce7a2ef83d822281078c80802161a.svg",
+    "static/media/features-clouds.svg": "/Plan-and-manage/static/media/features-clouds.899a498d79c499a7a10edf795ba9141f.svg",
+    "static/media/GetStartedClouds.svg": "/Plan-and-manage/static/media/GetStartedClouds.d1ea2ffd6675f058b5c0f8ea061f72f0.svg",
+    "static/media/Facebook.svg": "/Plan-and-manage/static/media/Facebook.df206d674157edf135f628e498cda460.svg",
+    "static/media/Rectangle bot.svg": "/Plan-and-manage/static/media/Rectangle bot.71f9973b6000a74f24fef6424064dd0e.svg",
+    "static/media/Watch.svg": "/Plan-and-manage/static/media/Watch.ae577c6177e5b1b071e3f7dcebe01893.svg",
+    "static/media/Audi.svg": "/Plan-and-manage/static/media/Audi.587bb42609bf3fd89f04d5b7f27d4c88.svg",
+    "index.html": "/Plan-and-manage/index.html",
+    "static/media/Group.svg": "/Plan-and-manage/static/media/Group.7121c75d22920f9ee4c7b65e436924f0.svg",
+    "static/media/Group 4.svg": "/Plan-and-manage/static/media/Group 4.d1bcde3170f5c1e7dccc0a9e25197d38.svg",
+    "static/media/Polygon.svg": "/Plan-and-manage/static/media/Polygon.40fcc71ad110840f15559a18cbb279a5.svg",
+    "static/media/Vector 2.4.svg": "/Plan-and-manage/static/media/Vector 2.4.2af4d1609d888dad613e1ddb8634b689.svg",
+    "static/media/Vector 2.6.svg": "/Plan-and-manage/static/media/Vector 2.6.7554f0e4ee0aabcbbe2dcd8822949b85.svg",
+    "static/media/Vector 2.5.svg": "/Plan-and-manage/static/media/Vector 2.5.26e7836535654f7bf05f416cbb4defff.svg",
+    "static/media/Vector 2.svg": "/Plan-and-manage/static/media/Vector 2.2befcec5b1c7ff5af6cbd1e222084cce.svg",
+    "main.cc201032.css.map": "/Plan-and-manage/static/css/main.cc201032.css.map",
+    "main.4a964747.js.map": "/Plan-and-manage/static/js/main.4a964747.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc201032.css",
+    "static/js/main.4a964747.js"
+  ]
+}
